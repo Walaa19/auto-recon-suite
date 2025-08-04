@@ -9,7 +9,7 @@ baseDir="$HOME/recon"
 outputDir="${baseDir}/emails_${org_name}"
 mkdir -p "$outputDir"
 
-hunter_api_key="2d76b6fd05bee9cdeee2abfac1f46871546e4d9d"
+hunter_api_key=""
 
 echo ""
 echo "[*] Starting email recon for $domain"
