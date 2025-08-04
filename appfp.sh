@@ -9,7 +9,7 @@ read -rp "Enter the domain to fingerprint: " DOMAIN
 read -rp "Enter organization name (used for output folder): " ORG
 
 OUTPUT_DIR="$HOME/recon/applications_$ORG"
-RESOLVED="$HOME/recon/subdomain_hackerone/resolved/live.txt"
+RESOLVED="$HOME/recon/subdomain_$ORG/resolved/live.txt"
 URLS="$OUTPUT_DIR/urls.txt"
 
 mkdir -p "$OUTPUT_DIR"
