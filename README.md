@@ -3,7 +3,7 @@ A fully automated reconnaissance toolkit for any domain or organization. This sc
 
 
 
-## ✨ Features
+## Features
 
 - Subdomain enumeration (passive + brute force)
 - DNS records collection
@@ -56,11 +56,16 @@ chmod +x *.sh
 ./avdetect.sh            # AV / URL reputation
 ```
 
-## Author
-Walaa Baidaq
-Medium: Your Medium Article
-GitHub: github.com/Walaa19
 
 
+## Walkthrough
+
+For a detailed walkthrough of the implementation, watch my [Medium Walkthrough](https://youtu.be/PkLIdSmdRyE).
+
+
+
+## Disclaimer
+
+This project involves working with live malware. **Extreme caution** must be exercised. Ensure all testing is performed in a secure, isolated environment to prevent accidental harm. Follow ethical guidelines and cybersecurity best practices strictly.
 
 
