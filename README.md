@@ -23,7 +23,7 @@ A fully automated reconnaissance toolkit for any domain or organization. This sc
   │ ├── subdomain.sh           # Subdomain enumeration
   │ ├── dnsrecords.sh           # DNS and network info
   │ ├── emails.sh         # Email harvesting
-  │ ├── avsetect.sh     # Antivirus info 
+  │ ├── avdetect.sh     # Antivirus info 
   │ ├── appfp.sh   # Application info 
   ├── README.md          # This documentation
 ```
