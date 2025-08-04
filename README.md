@@ -1,4 +1,4 @@
-# auto-recon-suite
+# Auto-Recon-suite
 A fully automated reconnaissance toolkit for any domain or organization. This script-based suite collects live subdomains, IPs, DNS records, emails, application technologies, and even checks antivirus detection. It’s perfect for bug bounty hunters, red teamers, and OSINT enthusiasts.
 
 
@@ -60,7 +60,7 @@ chmod +x *.sh
 
 ## Walkthrough
 
-For a detailed walkthrough of the implementation, watch my [Medium Walkthrough](https://youtu.be/PkLIdSmdRyE).
+For a detailed walkthrough of the implementation, watch my [Medium Walkthrough](https://medium.com/@walaa.a.hassan10/automating-recon-like-a-pro-my-end-to-end-recon-scripts-23531660f602 ).
 
 
 
