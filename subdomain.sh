@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Base recon directory
-baseDir="/home/rashel/recon"
+baseDir="/home/user/recon"
 
 # Prompt user
 read -p "Enter root domain (e.g., example.com): " root_domain
@@ -29,8 +29,8 @@ echo -e "[*] Starting subdomain enumeration for $org_name"
 echo "[*] Running Subfinder..."
 subfinder -d "$root_domain" -all -silent > "${rawDir}/subfinder.txt"
 
-echo "[*] Running Amass (3-minute timeout)..."
-timeout 3m amass enum -passive -d "$root_domain" -o "${rawDir}/amass.txt"
+echo "[*] Running Amass..."
+amass enum -passive -d "$root_domain" -o "${rawDir}/amass.txt"
 
 echo "[*] Running Assetfinder..."
 assetfinder --subs-only "$root_domain" > "${rawDir}/assetfinder.txt"
